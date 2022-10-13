@@ -17,20 +17,19 @@ export const Root = () => {
 
   return (
     <>
-      <header className="py-5 px-5 md:px-12 md:mx-8 lg:mx-12 lg:px-16 xl:px-24 xl:mx-16">
+      <header className="py-5 px-5 md:px-12 lg:px-16 xl:px-24 bg-main-color/70 backdrop-blur-3xl fixed left-0 top-0 right-0 z-50">
         <Link to={"/"}>
           <img src={logo} alt="Logo Icon" className="h-auto w-12" />
         </Link>
       </header>
 
-      <main className="py-5 px-5 md:px-12 md:mx-8 lg:mx-12 lg:px-16 xl:px-24 xl:mx-16 mt-12">
+      <main className="py-5 px-5 md:px-12 md:mx-8 lg:mx-12 lg:px-16 xl:px-24 xl:mx-16 mt-24">
         <section className="flex flex-col lg:w-[80%] xl:w-1/2 2xl:w-1/3">
           <h1 className="text-4xl md:text-5xl lg:text-6xl my-2 font-bold">
             Movieskuy
           </h1>
           <p className="my-1 text-gray-100/80">
-            Search and find your favorite movies on{" "}
-            <span className="text-purple-600 font-semibold">Movieskuy</span>😉
+            Search and find your favorite movie from the results below😉
           </p>
           <SearchField />
         </section>

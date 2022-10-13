@@ -6,7 +6,7 @@ export const useGetMovies = () => {
   const { data, error } = useSWR(
     `https://api.themoviedb.org/3/discover/movie?api_key=${
       import.meta.env.VITE_TMDB_KEY
-    }&sort_by=popularity.desc&include_adult=falsepage=1`,
+    }&sort_by=popularity.desc&include_adult=false&page=1`,
     fetcher
   );
 
