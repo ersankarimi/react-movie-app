@@ -1,12 +1,12 @@
 # Group Project Title
 
-Project description with clear goal.
+This is a submission for Project React at Codepolitan x Catamyst Project.
 
-![Screenshot 1]()
-
-![Screenshot 2]()
+This is a simple movie app that displays several lists of movies obtained via the TMDB API.
 
 ## Links
+
+Live Demo : [https://ersan-react-movieapp.netlify.app/](https://ersan-react-movieapp.netlify.app/)
 
 ### Production
 
