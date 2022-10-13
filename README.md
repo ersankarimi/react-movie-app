@@ -69,7 +69,13 @@ npm run format
 
 ## Deployment
 
-Details on deployment using Vercel or Netlify here.
+### Netlify
+
+Add your key at Environment Variables
+
+```sh
+VITE_TMDB_KEY=YOUR_KEY
+```
 
 ## REST API Documentation
 
