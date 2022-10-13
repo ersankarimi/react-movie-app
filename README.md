@@ -6,23 +6,17 @@ This is a simple movie app that displays several lists of movies obtained via th
 
 ## Links
 
-Live Demo : [https://ersan-react-movieapp.netlify.app/](https://ersan-react-movieapp.netlify.app/)
-
 ### Production
 
-- https://project.vercel.app
-- https://project.netlify.app
-- https://project.example.com
+https://ersan-react-movieapp.netlify.app/
 
 ### Local
 
-- http://localhost:3000
 - http://localhost:5173
 
 ## Main Features
 
-- Show movie lists on the screen
-- Search Movie
+- Show movies list on the screen
 
 ## Tech Stack
 
