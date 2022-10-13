@@ -1,4 +1,4 @@
-# Group Project Title
+# Simple React Movie App
 
 This is a submission for Project React at Codepolitan x Catamyst Project.
 
