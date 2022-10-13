@@ -38,13 +38,8 @@ Project description with clear goal.
     - React Router v6
 - Data Fetching
   - REST API: `swr`
-- UI Components
-  - Ariakit
-  - Headless UI
-  - Radix UI
 - Misc
   - Prettier
-  - ESLint
 
 ## Development
 
@@ -66,10 +61,10 @@ Build for production:
 npm run build
 ```
 
-Start in production mode:
+Format all files with Prettier:
 
 ```sh
-npm start
+npm run format
 ```
 
 ## Deployment
@@ -78,16 +73,6 @@ Details on deployment using Vercel or Netlify here.
 
 ## REST API Documentation
 
-Base URL: `https://api.example.com`
+Base URL: `https://api.themoviedb.org/3/`
 
-### Resources
-
-| Endpoint         | Method   | Description               |
-| ---------------- | -------- | ------------------------- |
-| `/resources`     | `GET`    | Get all resources         |
-| `/resources/:id` | `GET`    | Get one resource by id    |
-| `/resources`     | `POST`   | Create new resource       |
-| `/resources/:id` | `PUT`    | Update one resource by id |
-| `/resources/:id` | `PATCH`  | Patch one resource by id  |
-| `/resources`     | `DELETE` | Remove all resources      |
-| `/resources/:id` | `DELETE` | Remove one resource by id |
+API Documentation : [https://developers.themoviedb.org/3](https://developers.themoviedb.org/3)
